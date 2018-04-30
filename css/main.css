@@ -1,0 +1,214 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+.sun {
+  background: red;
+}
+.rain {
+  background: #a7b4b7;
+}
+.mist {
+  background: #b6b7a7;
+}
+.fog {
+  background: #665a57;
+}
+.haze {
+  background: #665a57;
+}
+.clouds {
+  background: lightgrey;
+}
+.clear {
+  background: lightblue;
+}
+.thunderstorm {
+  background: #000d4c;
+  color: #fffc8d;
+}
+.pa4 {
+  font-family: Futura LT Medium;
+  line-height: 2.5rem;
+}
+
+/* @media screen and (min-width: 521px) { */
+.sr2 {
+  margin: 0px auto;
+  height: 150px;
+}
+/* } */
+/* @media screen and (max-width: 520px) {
+  .sr2 {
+    margin: 0px 350px;
+  }
+} */
+/* .sr2 {
+  margin: 0px auto;
+} */
+.pa0 {
+  font-family: Futura LT Medium;
+}
+.hi {
+  font-family: Futura Md BT;
+  font-size: 40pt;
+  text-align: center;
+  padding-top: 20px;
+}
+.question {
+  height: 100px;
+}
+
+.info {
+  font-family: Futura LT Medium;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+.icon {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+.rain .icon {
+  background-image: url(rain.png);
+  background-size: cover;
+  height: 200px;
+  width: 230px;
+  /* width: 250px; */
+}
+.clear .icon {
+  background-image: url(clear.png);
+  background-size: cover;
+  height: 300px;
+  width: 260px;
+}
+.mist .icon {
+  background-image: url(mist.png);
+  background-size: contain;
+  height: 215px;
+  width: 260px;
+}
+.fog .icon {
+  background-image: url(fog.png);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+.haze .icon {
+  background-image: url(fog.png);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+.clouds .icon {
+  background-image: url(cloud.png);
+  background-size: contain;
+  width: 230px;
+  height: 150px;
+}
+.sun .icon {
+  background-image: url(sun.png);
+  background-size: cover;
+  width: 300px;
+}
+.thunderstorm .icon {
+  background-image: url(thunderstorm.png);
+  background-size: cover;
+  height: 290px;
+  width: 235px;
+}
+/* .info {
+  display: grid;
+
+  margin: auto;
+  margin-top: 60px;
+  justify-content: space-around;
+} */
+@media screen and (min-width: 401px) {
+  .answers {
+    font-family: Futura Md BT;
+    font-size: 30px;
+    height: 10px;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .answers {
+    font-family: Futura Md BT;
+    font-size: 30px;
+    height: 20px;
+    width: 360px;
+    text-align: right;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 60px auto 0px;
+    justify-content: space-around;
+    width: 800px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-around;
+  }
+}
+
+/* .Location {
+  margin: auto;
+  text-align: center;
+}
+.Temperature {
+  margin-left: auto;
+  text-align: center;
+}
+.Weather {
+  margin: auto;
+  text-align: center;
+} */
+@media screen and (min-width: 401px) {
+  .Temperature {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Temperature {
+    margin: auto;
+    text-align: right;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .Location {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Location {
+    margin: auto;
+    text-align: right;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .Weather {
+    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Weather {
+    margin: auto;
+    text-align: right;
+    width: 320px;
+  }
+}
